@@ -1,32 +1,16 @@
-# Работа с проектом в IntelliJ IDEA
+# Cool Numbers Project
 
-## Запуск тестов локально
+## Project Description
+A Java program that generates and searches for "cool" car numbers according to Russian car number format rules. The project includes implementation of different search algorithms and compares their performance.
 
-Запуск на вашем компьютере перед отправкой в репозиторий
+## Features
+- Generation of unique car numbers
+- Multiple search methods implementation:
+  * Brute force search
+  * Binary search
+  * HashSet search
+  * TreeSet search
+- Performance measurement for each search method
 
-### Используя интерфейс
-
-- Вызовите контекстное меню папки `test/java`
-правой клавишей мыши.
-- Выберите пункт `Run 'All Tests'`
-
-![Запуск тестов](https://i.imgur.com/30te74l.png)
-
-### Используя горячие клавиши
-
-Запуск всех тестов `Ctrl+Shift+F10` / `⌃⇧R`
-
-*Также вы можете запустить дебаг для анализа и поиска причины*
-
-## Запуск проверки codestyle
-
-- Запустите плагин checkstyle:
-
-### Используя интерфейс
-
-![Запуск проверки стиля кода](https://i.imgur.com/jxgn4In.png)
-
-В результате получите отчет. Если ошибки будут найдены, посмотреть их список и описание
-сможете в разделе
-
-![](https://i.imgur.com/vyl2YnF.png)
+## Technical Requirements
+- Java 8 or higher
